@@ -8,10 +8,18 @@ html {
     font-size: 62.5%;
 }
 
+html,
+body {
+    width: 100vw;
+    height: 100vh !important;
+    overflow: hidden;
+}
+
+
 body {
     background-color: var(--bg-color);
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     overflow: hidden;
 }
 
@@ -65,7 +73,7 @@ body {
     animation: animatedBg 50s linear infinite;
 }
 
-@keyframes animatedBg{
+@keyframes animatedBg {
     0% {
         background-position-x: 0rem;
     }
@@ -86,11 +94,11 @@ body {
 
 @keyframes privateCar {
     0% {
-        margin-left: -100%;
+        margin-left: -110%;
     }
 
     100% {
-        margin-left: 100%;
+        margin-left: 110%;
     }
 }
 
@@ -101,7 +109,7 @@ body {
     bottom: -1rem;
     transform: rotateY(180deg);
     z-index: 3;
-    animation: truck 20s linear infinite;
+    animation: truck 22s linear infinite;
 }
 
 @keyframes truck {
@@ -121,16 +129,16 @@ body {
     bottom: 6rem;
     transform: rotateY(180deg);
     z-index: 2;
-    animation: zip 10s linear infinite;
+    animation: zip 25s linear infinite;
 }
 
 @keyframes zip {
     0% {
-        margin-left: 100%;
+        margin-left: 150%;
     }
 
     100% {
-        margin-left: -100%;
+        margin-left: -150%;
     }
 }
 
@@ -140,20 +148,20 @@ body {
     position: absolute;
     bottom: 7rem;
     z-index: 1;
-    animation: bus 20s linear infinite;
+    animation: bus 28s linear infinite;
 }
 
 @keyframes bus {
     0% {
-        margin-left: -100%;
+        margin-left: -140%;
     }
 
     100% {
-        margin-left: 100%;
+        margin-left: 140%;
     }
 }
 
-.road{
+.road {
     position: absolute;
     bottom: 0rem;
     height: 12rem;
@@ -164,7 +172,7 @@ body {
     animation: road 50s linear infinite;
 }
 
-@keyframes road{
+@keyframes road {
     0% {
         background-position-x: 0rem;
     }
@@ -175,13 +183,29 @@ body {
 }
 
 @media(max-width: 992px) {
-   html{
-       font-size: 55%;
-   }
+    html {
+        font-size: 55%;
+    }
 }
 
 @media(max-width: 768px) {
     html {
         font-size: 45%;
+    }
+
+    .privateCar {
+        animation: privateCar 10s linear infinite;
+    }
+
+    .truck {
+        animation: truck 15s linear infinite;
+    }
+
+    .zip {
+        animation: zip 15s linear infinite;
+    }
+
+    .bus {
+        animation: bus 23s linear infinite;
     }
 }
