@@ -1,4 +1,4 @@
-# Food King
+# Web Animation
 
 Responsive web animation.
 
@@ -8,7 +8,7 @@ Responsive web animation.
 - [@md5nayeem](https://www.github.com/md5nayeem)
 
 
-## Demo
+## Live
 
 https://md5nayeem.github.io/Web_Animation/
 
