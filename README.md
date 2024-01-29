@@ -5,7 +5,7 @@ Responsive web animation.
 
 ## Authors
 
-- [Md Nayeem](https://www.github.com/md5nayeem)
+- [Md Nayeem](https://www.github.com/usernayeem)
 
 
 ## Live
