@@ -8,20 +8,14 @@ Responsive web animation.
 - [Md Nayeem](https://www.github.com/usernayeem)
 
 
-## Live
+## Live Preview
 
-https://usernayeem.github.io/Web_Animation/
+https://usernayeem.github.io/web-animation/
 
 
 ## Feedback
 
 If you have any feedback, please reach out to me at https://www.linkedin.com/in/usernayeem/
-
-
-## Used Tools and Technologies
-
-**Client:** HTML, CSS, & JS,
-
 
 
 ## License
